@@ -8,7 +8,7 @@ public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(double sideA, double sideB, double sideC) throws Exception {
         super(sideA, sideB, sideC);
         if (sideA < sideB && sideA < sideC && sideB < sideA && sideB < sideC && sideC < sideA && sideC < sideB) {
-            throw new Exception("This triangle does not exist");
+            throw new Exception("This triangle is not Equilateral");
         }
     }
 

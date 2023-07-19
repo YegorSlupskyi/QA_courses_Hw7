@@ -6,7 +6,7 @@ public class Triangle {
     private final double sideC;
 
     public Triangle(double sideA, double sideB, double sideC) throws Exception {
-        if (sideA > sideB + sideC || sideB > sideA + sideC || sideC > sideA + sideB) {
+        if (sideA >= sideB + sideC || sideB >= sideA + sideC || sideC >= sideA + sideB) {
             throw new Exception("This triangle does not exist");
         }
         this.sideA = sideA;

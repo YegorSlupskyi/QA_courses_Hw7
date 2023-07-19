@@ -69,9 +69,11 @@ public class Main {
     }
 
     public static void isoscelesTriangle() throws Exception {
-        IsoscelesTriangle firstIsoscelesTriangle = new IsoscelesTriangle(7, 6, 10);
+        IsoscelesTriangle firstIsoscelesTriangle = new IsoscelesTriangle(7, 10);
         System.out.println("firstIsoscelesTriangle = " + firstIsoscelesTriangle.toString());
         System.out.println("Area of the Isosceles triangle = " + firstIsoscelesTriangle.getArea() + " cm²");
+        System.out.println("____________________________");
+        System.out.println();
     }
 
     public static void equilateralTriangle() throws Exception {

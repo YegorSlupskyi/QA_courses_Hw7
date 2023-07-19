@@ -3,9 +3,6 @@ package src;
 public class IsoscelesTriangle extends Triangle {
     public IsoscelesTriangle(double side, double foundation) throws Exception {
         super(side, side, foundation);
-        if (side + side <= foundation) {
-            throw new Exception("This triangle does not exist");
-        }
     }
 
     public IsoscelesTriangle(double sideA, double sideB, double sideC) throws Exception {
