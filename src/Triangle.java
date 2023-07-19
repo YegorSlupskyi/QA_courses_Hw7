@@ -36,8 +36,8 @@ public class Triangle {
     }
 
     public String toString() {
-        return this.getSideA() + " "
-                + this.getSideB() + " "
+        return this.getSideA() + "; "
+                + this.getSideB() + "; "
                 + this.getSideC();
     }
 
