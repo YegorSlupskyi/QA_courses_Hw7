@@ -1,4 +1,4 @@
-package src;
+package src.Tetragon;
 
 public class Rhombus extends Parallelogram{
 

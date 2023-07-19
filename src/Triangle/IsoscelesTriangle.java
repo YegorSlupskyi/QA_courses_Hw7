@@ -1,4 +1,4 @@
-package src;
+package src.Triangle;
 
 public class IsoscelesTriangle extends Triangle {
     public IsoscelesTriangle(double side, double foundation) throws Exception {

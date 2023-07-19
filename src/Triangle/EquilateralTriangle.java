@@ -1,4 +1,4 @@
-package src;
+package src.Triangle;
 
 public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(double side) throws Exception {

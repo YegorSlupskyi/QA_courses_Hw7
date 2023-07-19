@@ -1,4 +1,4 @@
-package src;
+package src.Tetragon;
 
 public class Tetragon {
     private Point topLeft;

@@ -1,4 +1,4 @@
-package src;
+package src.Tetragon;
 
 public class Trapezium extends Tetragon {
     public Trapezium(Point topLeft, Point topRight, Point bottomRight, Point bottomLeft) throws Exception {

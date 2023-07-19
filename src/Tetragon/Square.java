@@ -1,4 +1,4 @@
-package src;
+package src.Tetragon;
 
 public class Square extends Tetragon {
     public Square(double side) {

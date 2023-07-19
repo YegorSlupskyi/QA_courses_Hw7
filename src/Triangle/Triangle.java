@@ -1,4 +1,4 @@
-package src;
+package src.Triangle;
 
 public class Triangle {
     private final double sideA;

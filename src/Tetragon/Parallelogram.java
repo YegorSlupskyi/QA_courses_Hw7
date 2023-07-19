@@ -1,4 +1,4 @@
-package src;
+package src.Tetragon;
 
 public class Parallelogram extends Tetragon {
     public Parallelogram(double sideA, double sideB, double angleBetweenSides) {

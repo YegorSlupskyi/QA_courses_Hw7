@@ -1,5 +1,11 @@
 package src;
 
+import src.Tetragon.*;
+import src.Triangle.EquilateralTriangle;
+import src.Triangle.IsoscelesTriangle;
+import src.Triangle.RectangularTriangle;
+import src.Triangle.Triangle;
+
 public class Main {
     public static void main(String[] args) {
         circle();
